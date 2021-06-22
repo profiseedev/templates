@@ -89,6 +89,6 @@ User must enter the following parameters:
     c. Profisee database name (example: Profisee)
     d. ClientID: [clientID of service account]
 ~~~
-
+Once all parameters are entered the script will execute and the artifacts which are contained in the folder "profisee_objects" folder will be imported to the Profisee server.
 
 
