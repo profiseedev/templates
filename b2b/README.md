@@ -77,7 +77,7 @@ Installation without data import
 
 ## Installation Procedure
 
-## Execute B2B_install.ps1/B2B_install_with_data.ps1
+### Execute B2B_install.ps1/B2B_install_with_data.ps1
 
 ~~~
 To install only model and supporting artifacts, execute B2B_install.ps1 script. 
