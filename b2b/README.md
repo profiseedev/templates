@@ -63,4 +63,32 @@ The B2B template is designed to enable the quick deployment of the Profisee data
 -> Profisee.maestromodel
 ~~~
 
+### Powershell Installation Scripts
+~~~
+Installation with data import
+-> B2B_install_with_data.ps1
+~~~
+
+~~~
+Installation without data import
+-> B2B_install.ps1
+~~~
+
+
+## Installation Procedure
+
+## Execute B2B_install.ps1/B2B_install_with_data.ps1
+
+~~~
+To install only model and supporting artifacts, execute B2B_install.ps1 script. 
+To deploy data, model, and supporting artifacts, execute B2B_install_with_data.ps1
+
+User must enter the following parameters: 
+    a. FQDN Profisee service URI (example: https://corp.acme.com/profisee/)
+    b. SQL Server host (example: localhost)
+    c. Profisee database name (example: Profisee)
+    d. ClientID: [clientID of service account]
+~~~
+
+
 
