@@ -61,3 +61,6 @@ The B2B template is designed to enable the quick deployment of the Profisee data
 -> CustomerB2B.verification
 -> Invalid Customers.presentationview
 -> Profisee.maestromodel
+~~~
+
+
