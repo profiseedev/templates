@@ -7,7 +7,7 @@ The Profisee Product Model Template provides a series of entities and a supporti
 
 ## Usage
 
-The Product template is designed to enable the quick deployment of the Profisee data model and supporting Product FastApp. Attributes/Entities can be added or removed as needed; this template has been created as a starting point for Product MDM needs.
+The Product template is designed to enable the quick deployment of the Profisee data model and supporting Product FastApps. Attributes/Entities can be added or removed as needed; this template has been created as a starting point for Product MDM needs.
 
 ## Prerequisites
 
