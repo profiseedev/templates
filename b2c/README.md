@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Profisee B2C Model Template provides a series of entities and a supporting application to manage basic B2C Master Data Management activities. The template consumes 281 attributes.
+The Profisee B2C Model Template provides a series of entities and a supporting application to manage basic B2C Master Data Management activities. The template consumes 167 attributes.
 
 ![Screenshot](images/b2b_dashboard.png)
 
@@ -19,37 +19,33 @@ The B2C template is designed to enable the quick deployment of the Profisee data
 
 ## Entities Included in B2C Model
 * AddressVerificationStatus
-* Continent
-* Country
-* Currency
-* Customer_AccountArea
-* Customer_AccountGroup
-* Customer_CompanyType
-* Customer_Contact
-* Customer_Segment
-* Customer_Status
-* CustomerB2B
-* Gender
+* CustomerB2C
+* CustomerB2C_Area
+* CustomerB2C_MarketingCampaign
+* CustomerB2C_MatchStatus
+* CustomerB2C_Region
+* CustomerB2C_SourceSystem
+* CustomerB2C_YesNo
 * LocationVerificationConfidence
 * LocationVerificationStatus
-* MaritalStatus
 * MatchStatus
-* MergeStatus
-* StateProvince
-* System
-* WorkflowStatus
-* YesNo
+* SalesArea
+* SalesRegion
 
 ## Folder Structure 
 
 ### profisee_objects
 ~~~ 
--> Account_Merge.stagingtable
--> Account-Contact.hierarchy
--> Account-Group.hierarchy
--> Account-Master.hierarchy
--> Contact_Merge.stagingtable
--> Customer Account Masters.presentationview
+-> B2C.rules
+-> B2C.verification
+-> Customer B2C Issues.presentationview
+-> CustomerB2C Area to Region to Customer.hierarchy
+-> CustomerB2C Customer Source.presentationview
+-> CustomerB2C Household.matchingstrategy
+
+
+
+
 -> Customer Account Sources.presentationview
 -> Customer Contact Masters.presentationview
 -> Customer Contact Sources.presentationview
