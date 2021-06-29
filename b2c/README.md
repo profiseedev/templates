@@ -8,7 +8,7 @@ The Profisee B2C Model Template provides a series of entities and a supporting a
 
 ## Usage
 
-The B2B template is designed to enable the quick deployment of the Profisee data model and supporting B2C FastApp. Attributes/Entities can be added or removed as needed; this template has been created as a starting point for B2C MDM needs.
+The B2C template is designed to enable the quick deployment of the Profisee data model and supporting B2C FastApp. Attributes/Entities can be added or removed as needed; this template has been created as a starting point for B2C MDM needs.
 
 ## Prerequisites
 
