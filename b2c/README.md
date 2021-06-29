@@ -42,22 +42,17 @@ The B2C template is designed to enable the quick deployment of the Profisee data
 -> CustomerB2C Area to Region to Customer.hierarchy
 -> CustomerB2C Customer Source.presentationview
 -> CustomerB2C Household.matchingstrategy
-
-
-
-
--> Customer Account Sources.presentationview
--> Customer Contact Masters.presentationview
--> Customer Contact Sources.presentationview
--> Customer_Account.archive
--> Customer_Account.maestroform
--> Customer_Account.matchingstrategy
--> Customer_Account-LUBC.matchingstrategy
--> Customer_Contact.maestroform
--> CustomerB2B.portalapplication
--> CustomerB2B.rules
--> CustomerB2B.verification
--> Invalid Customers.presentationview
+-> CustomerB2C Master Recursive Hiearchy.hierarchy
+-> CustomerB2C Master.presentationview
+-> CustomerB2C Matching.matchingstrategy
+-> CustomerB2C.portalapplication
+-> CustomerB2C_01CustomerSource-Add No AV.maestroform
+-> CustomerB2C_01CustomerSource-Add.maestroform
+-> CustomerB2C_01CustomerSource-Edit AV.maestroform
+-> CustomerB2C_01CustomerSource-Edit.maestroform
+-> CustomerB2C_02CustomerMaster.maestroform
+-> CustomerB2C_Merge.stagingtable
+-> CustomerData.archive
 -> Profisee.maestromodel
 ~~~
 
