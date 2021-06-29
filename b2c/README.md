@@ -4,7 +4,7 @@
 
 The Profisee B2C Model Template provides a series of entities and a supporting application to manage basic B2C Master Data Management activities. The template consumes 167 attributes.
 
-![Screenshot](images/b2b_dashboard.png)
+![Screenshot](images/b2c_dashboard.png)
 
 ## Usage
 
