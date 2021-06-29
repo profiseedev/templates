@@ -1,14 +1,14 @@
-# B2B Model Template
+# B2C Model Template
 
 ## Overview
 
-The Profisee B2B Model Template provides a series of entities and a supporting application to manage basic B2B Master Data Management activities. The template consumes 281 attributes.
+The Profisee B2C Model Template provides a series of entities and a supporting application to manage basic B2C Master Data Management activities. The template consumes 281 attributes.
 
 ![Screenshot](images/b2b_dashboard.png)
 
 ## Usage
 
-The B2B template is designed to enable the quick deployment of the Profisee data model and supporting B2B FastApp. Attributes/Entities can be added or removed as needed; this template has been created as a starting point for B2B MDM needs.
+The B2B template is designed to enable the quick deployment of the Profisee data model and supporting B2C FastApp. Attributes/Entities can be added or removed as needed; this template has been created as a starting point for B2C MDM needs.
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ The B2B template is designed to enable the quick deployment of the Profisee data
 * Microsoft sqlcmd utility
 * Microsoft PowerShell
 
-## Entities Included in B2B Model
+## Entities Included in B2C Model
 * AddressVerificationStatus
 * Continent
 * Country
@@ -68,22 +68,22 @@ The B2B template is designed to enable the quick deployment of the Profisee data
 ### Powershell Installation Scripts
 ~~~
 Installation with data import
--> B2B_install_with_data.ps1
+-> B2C_install_with_data.ps1
 ~~~
 
 ~~~
 Installation without data import
--> B2B_install.ps1
+-> B2C_install.ps1
 ~~~
 
 
 ## Installation Procedure
 
-### Execute B2B_install.ps1/B2B_install_with_data.ps1
+### Execute B2C_install.ps1/B2C_install_with_data.ps1
 
 ~~~
-To install only model and supporting artifacts, execute B2B_install.ps1 script. 
-To deploy data, model, and supporting artifacts, execute B2B_install_with_data.ps1
+To install only model and supporting artifacts, execute B2C_install.ps1 script. 
+To deploy data, model, and supporting artifacts, execute B2C_install_with_data.ps1
 
 User must enter the following parameters: 
     a. FQDN Profisee service URI (example: https://corp.acme.com/profisee/)
